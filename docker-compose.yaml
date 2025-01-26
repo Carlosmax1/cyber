@@ -16,7 +16,7 @@ services:
     build:
       context: ./python
       dockerfile: Dockerfile
-      hostname: api
+    hostname: api
     ports:
       - '5000:5000'
     volumes:
