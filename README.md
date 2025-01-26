@@ -26,7 +26,7 @@ cd cyber
 ### Executar os Contêineres
 
 ```bash
-docker-compose up
+docker-compose up -d
 ```
 
 Após a execução, o servidor estará ativo na porta **5000**.
@@ -65,9 +65,7 @@ Resposta esperada:
 
 ## Estrutura do Repositório
 
-- **client/**: Frontend da aplicação.
 - **python/**: Aplicação Flask responsável pelo processamento de textos.
-- **server/**: Backend utilizando Prisma para integração com o banco de dados.
 - **docker-compose.yaml**: Configuração dos serviços Docker.
 - **nginx.conf**: Arquivo de configuração do servidor Nginx.
 
