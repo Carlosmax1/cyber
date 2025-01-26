@@ -19,8 +19,6 @@ services:
     hostname: api
     ports:
       - '5000:5000'
-    volumes:
-      - ./result.json:/app/result.json # Monta o arquivo JSON no container
     environment:
       - FLASK_ENV=production
 
